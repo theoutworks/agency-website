@@ -9,7 +9,7 @@ import {
   TestTube,
 } from "lucide-react"
 
-export const metadata = { title: "Software Development | Momentumly" }
+export const metadata = { title: "Software Development | The Outworks" }
 
 const features = [
   {

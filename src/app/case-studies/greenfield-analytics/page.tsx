@@ -10,7 +10,7 @@ import {
 } from "lucide-react"
 
 export const metadata = {
-  title: "GreenField Analytics Case Study | Momentumly",
+  title: "GreenField Analytics Case Study | The Outworks",
 }
 
 const stats = [
@@ -122,7 +122,7 @@ export default function GreenFieldPage() {
             </h2>
             <blockquote className="bg-dark-card border-dark-border rounded-2xl border p-8">
               <p className="text-light mb-4 leading-relaxed italic">
-                &ldquo;Momentumly brought our ideas to life in ways we never
+                &ldquo;The Outworks brought our ideas to life in ways we never
                 imagined. Their innovative approach and attention to detail made
                 our project a huge success. Highly recommended.&rdquo;
               </p>

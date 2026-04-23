@@ -20,7 +20,7 @@ const testimonials = [
     avatar: "https://randomuser.me/api/portraits/men/22.jpg",
   },
   {
-    text: "Momentumly brought our ideas to life in ways we never imagined. Their innovative approach and attention to detail made our project a huge success. Highly recommended.",
+    text: "The Outworks brought our ideas to life in ways we never imagined. Their innovative approach and attention to detail made our project a huge success. Highly recommended.",
     name: "Aarush Goyal",
     company: "Automation Company",
     avatar: "https://randomuser.me/api/portraits/men/36.jpg",
@@ -71,7 +71,7 @@ export function Testimonials() {
             <span className="text-accent">loved by clients</span>
           </h2>
           <p className="text-muted mx-auto max-w-2xl leading-relaxed">
-            At Momentumly, our clients&apos; success stories are our greatest
+            At The Outworks, our clients&apos; success stories are our greatest
             achievement. Hear what our partners have to say.
           </p>
         </motion.div>

@@ -9,7 +9,7 @@ import {
   Zap,
 } from "lucide-react"
 
-export const metadata = { title: "Full Stack Web Development | Momentumly" }
+export const metadata = { title: "Full Stack Web Development | The Outworks" }
 
 const features = [
   {

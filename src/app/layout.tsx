@@ -9,7 +9,7 @@ import { Navbar } from "@/components/navbar"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Momentumly",
+  title: "The Outworks",
   description:
     "Your brand deserves more than just a website — it needs a digital experience that stands out. We craft sleek, responsive, and high-performing websites designed to captivate users and maximize conversions.",
 }

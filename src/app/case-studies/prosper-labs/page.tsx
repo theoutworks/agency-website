@@ -9,7 +9,7 @@ import {
   Zap,
 } from "lucide-react"
 
-export const metadata = { title: "Prosper Labs Case Study | Momentumly" }
+export const metadata = { title: "Prosper Labs Case Study | The Outworks" }
 
 const stats = [
   { label: "Manual Work Reduced", value: "60%" },

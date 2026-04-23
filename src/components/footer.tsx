@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-import { MomentlyLogo } from "./logo"
+import { OutworksLogo } from "./logo"
 
 export function Footer() {
   return (
@@ -9,8 +9,8 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-4 md:gap-10">
           <div>
             <div className="mb-4 flex items-center gap-2.5">
-              <MomentlyLogo className="h-8 w-8" />
-              <h3 className="text-xl font-bold">momentumly</h3>
+              <OutworksLogo className="h-8 w-8" />
+              <h3 className="text-xl font-bold">the outworks</h3>
             </div>
             <p className="text-muted text-sm leading-relaxed">
               Crafting unforgettable digital experiences for your brand through
@@ -104,7 +104,7 @@ export function Footer() {
 
         <div className="border-dark-border text-muted mt-16 flex flex-col items-center justify-between gap-4 border-t pt-8 text-xs md:flex-row">
           <p>
-            &copy; {new Date().getFullYear()} Momentumly. All rights reserved.
+            &copy; {new Date().getFullYear()} The Outworks. All rights reserved.
           </p>
           <p>Crafted with passion and precision.</p>
         </div>

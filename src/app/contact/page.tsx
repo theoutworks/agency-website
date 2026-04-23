@@ -85,7 +85,7 @@ export default function ContactPage() {
               {
                 icon: <Mail className="text-accent h-5 w-5" />,
                 label: "Email",
-                value: "hello@momentumly.agency",
+                value: "hello@theoutworks.com",
               },
               {
                 icon: <Phone className="text-accent h-5 w-5" />,

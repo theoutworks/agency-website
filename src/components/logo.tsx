@@ -1,4 +1,4 @@
-export function MomentlyLogo({
+export function OutworksLogo({
   className = "w-8 h-8",
 }: {
   className?: string

@@ -89,7 +89,7 @@ export function About() {
         >
           <div className="p-8 md:flex-1">
             <h3 className="mb-4 text-2xl font-bold">
-              At Momentumly, our priority is to deliver{" "}
+              At The Outworks, our priority is to deliver{" "}
               <span className="text-accent">real results</span>
             </h3>
             <p className="text-muted max-w-xl leading-relaxed">

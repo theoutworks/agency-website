@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { ArrowRight, ExternalLink } from "lucide-react"
 
-export const metadata = { title: "Case Studies | Momentumly" }
+export const metadata = { title: "Case Studies | The Outworks" }
 
 const studies = [
   {

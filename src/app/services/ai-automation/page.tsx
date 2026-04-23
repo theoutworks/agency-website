@@ -9,7 +9,7 @@ import {
   Workflow,
 } from "lucide-react"
 
-export const metadata = { title: "AI & Automation | Momentumly" }
+export const metadata = { title: "AI & Automation | The Outworks" }
 
 const features = [
   {

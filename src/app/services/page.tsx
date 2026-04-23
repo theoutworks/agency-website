@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { ArrowRight, Bot, Code, Database, Globe } from "lucide-react"
 
-export const metadata = { title: "Services | Momentumly" }
+export const metadata = { title: "Services | The Outworks" }
 
 const services = [
   {

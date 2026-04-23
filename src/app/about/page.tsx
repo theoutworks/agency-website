@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { ArrowRight, Eye, Target, Users } from "lucide-react"
 
-export const metadata = { title: "About Us | Momentumly" }
+export const metadata = { title: "About Us | The Outworks" }
 
 export default function AboutPage() {
   return (
@@ -18,7 +18,7 @@ export default function AboutPage() {
 
       <section className="relative z-10 mx-auto -mt-20 max-w-7xl px-6">
         <h1 className="mb-6 text-3xl font-bold sm:text-5xl md:text-6xl">
-          About <span className="text-accent">Momentumly</span>
+          About <span className="text-accent">The Outworks</span>
         </h1>
         <p className="text-muted mb-16 max-w-2xl text-lg leading-relaxed">
           We are a team of engineers, designers, and strategists working in

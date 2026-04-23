@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 
-import { MomentlyLogo } from "./logo"
+import { OutworksLogo } from "./logo"
 
 export function Navbar() {
   const [open, setOpen] = useState(false)
@@ -16,8 +16,8 @@ export function Navbar() {
           href="/"
           className="flex items-center gap-2.5 text-xl font-bold tracking-tight"
         >
-          <MomentlyLogo className="h-8 w-8" />
-          momentumly
+          <OutworksLogo className="h-8 w-8" />
+          the outworks
         </Link>
 
         <div className="text-muted hidden items-center gap-8 text-sm md:flex">

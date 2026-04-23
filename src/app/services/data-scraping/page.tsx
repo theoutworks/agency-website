@@ -9,7 +9,7 @@ import {
   ShieldCheck,
 } from "lucide-react"
 
-export const metadata = { title: "Data Scraping | Momentumly" }
+export const metadata = { title: "Data Scraping | The Outworks" }
 
 const features = [
   {

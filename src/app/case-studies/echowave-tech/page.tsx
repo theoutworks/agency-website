@@ -8,7 +8,7 @@ import {
   Zap,
 } from "lucide-react"
 
-export const metadata = { title: "EchoWave Tech Case Study | Momentumly" }
+export const metadata = { title: "EchoWave Tech Case Study | The Outworks" }
 
 const stats = [
   { label: "Engagement Increase", value: "150%" },
