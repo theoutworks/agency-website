@@ -119,7 +119,7 @@ export function Footer() {
               href="/contact"
               className="btn-press bg-accent hover:bg-accent-dim inline-block rounded-full px-5 py-2.5 text-sm font-medium text-black transition"
             >
-              Get in touch
+              Book a discovery call
             </Link>
           </div>
         </div>
