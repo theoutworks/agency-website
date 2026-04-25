@@ -1,6 +1,7 @@
 "use client"
 
 import { useCallback, useEffect, useState } from "react"
+import Image from "next/image"
 import { AnimatePresence, motion } from "framer-motion"
 import { ChevronLeft, ChevronRight, Quote, Star } from "lucide-react"
 
@@ -113,9 +114,11 @@ export function Testimonials() {
                   &ldquo;{t.text}&rdquo;
                 </p>
                 <div className="flex items-center gap-4">
-                  <img
+                  <Image
                     src={t.avatar}
                     alt={t.name}
+                    width={48}
+                    height={48}
                     className="border-dark-border h-12 w-12 rounded-full border-2 object-cover"
                   />
                   <div>

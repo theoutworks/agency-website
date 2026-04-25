@@ -1,11 +1,10 @@
 "use client"
 
 import { useEffect, useRef } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ArrowRight, CheckCircle } from "lucide-react"
-
-import { MouseGlow } from "@/components/mouse-glow"
 
 function GridBackground() {
   return (
@@ -176,10 +175,11 @@ export function Hero() {
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden pt-16">
       {/* Background hero image */}
       <div className="absolute inset-0">
-        <img
+        <Image
           src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&q=80"
           alt=""
-          className="h-full w-full object-cover"
+          fill
+          className="object-cover"
         />
         <div className="bg-dark/80 absolute inset-0" />
       </div>
@@ -206,11 +206,13 @@ export function Hero() {
                   "https://randomuser.me/api/portraits/women/68.jpg",
                   "https://randomuser.me/api/portraits/men/75.jpg",
                   "https://randomuser.me/api/portraits/women/90.jpg",
-                ].map((src, i) => (
-                  <img
+                 ].map((src, i) => (
+                  <Image
                     key={i}
                     src={src}
                     alt=""
+                    width={28}
+                    height={28}
                     className="border-dark h-7 w-7 rounded-full border-2 object-cover"
                   />
                 ))}

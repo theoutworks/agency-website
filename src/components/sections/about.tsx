@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ArrowRight, BarChart3, Code2, Cpu, Zap } from "lucide-react"
@@ -94,10 +95,11 @@ export function About() {
               className="card-glow bg-dark-card border-dark-border group overflow-hidden rounded-2xl border transition"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={card.image}
                   alt={card.title}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="from-dark-card via-dark-card/40 absolute inset-0 bg-gradient-to-t to-transparent" />
               </div>
@@ -158,10 +160,11 @@ export function About() {
             </div>
           </div>
           <div className="relative h-48 overflow-hidden md:h-auto md:w-80">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80"
               alt="Team collaboration"
-              className="h-full w-full object-cover"
+              fill
+              className="object-cover"
             />
             <div className="from-dark-card absolute inset-0 hidden bg-gradient-to-r via-transparent to-transparent md:block" />
             <div className="from-dark-card absolute inset-0 bg-gradient-to-t via-transparent to-transparent md:hidden" />

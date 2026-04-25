@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
@@ -19,10 +20,11 @@ export function CTA() {
         >
           {/* Background image */}
           <div className="absolute inset-0">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1497215842964-222b430dc094?w=1200&q=80"
               alt=""
-              className="h-full w-full object-cover opacity-15"
+              fill
+              className="object-cover opacity-15"
             />
             <div className="from-dark-card via-dark-card/80 to-dark-card/60 absolute inset-0 bg-gradient-to-t" />
           </div>

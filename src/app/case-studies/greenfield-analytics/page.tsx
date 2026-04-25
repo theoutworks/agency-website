@@ -1,8 +1,6 @@
 import Link from "next/link"
 import {
   ArrowRight,
-  BarChart3,
-  Database,
   Target,
   TrendingUp,
   Users,

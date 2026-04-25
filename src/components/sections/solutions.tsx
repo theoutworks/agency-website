@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { motion } from "framer-motion"
 import { Lightbulb, Settings, Users } from "lucide-react"
 
@@ -66,10 +67,11 @@ export function Solutions() {
               className="card-glow bg-dark-card border-dark-border group overflow-hidden rounded-2xl border transition"
             >
               <div className="relative h-40 overflow-hidden">
-                <img
+                <Image
                   src={item.image}
                   alt={item.title}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="from-dark-card absolute inset-0 bg-gradient-to-t to-transparent" />
               </div>

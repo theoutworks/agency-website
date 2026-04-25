@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, Bot, Code, Database, Globe } from "lucide-react"
 
@@ -62,10 +63,11 @@ export default function ServicesPage() {
               className="bg-dark-card border-dark-border hover:border-muted/50 group overflow-hidden rounded-2xl border transition"
             >
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={service.image}
                   alt={service.title}
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="from-dark-card via-dark-card/40 absolute inset-0 bg-gradient-to-t to-transparent" />
               </div>
