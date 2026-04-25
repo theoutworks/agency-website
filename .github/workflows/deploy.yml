@@ -42,7 +42,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: pnpm build:worker
+        run: pnpm worker:build
 
       - name: Deploy to Cloudflare Workers
-        run: npx wrangler deploy
+        run: pnpm run worker:deploy
